@@ -39,3 +39,9 @@ python -m venv .venv
 .venv/Scripts/activate
 pip install -r requirements.txt
 ```
+Before running the notebooks, ensure you download necessary NLTK resources by running:
+```python
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
