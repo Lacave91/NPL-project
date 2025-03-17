@@ -40,7 +40,7 @@ We worked with **two datasets provided by our professor**:
 - **Multinomial Naive Bayes** notebook and predictions.
 - **Random Forest Classifier** notebook and predictions.
 - **Logistic Regression** notebook and predictions.
-- **GloVe embeddings** notebook and predictions.
+- **Global Vectors for Word Representation (embeddings)** notebook and predictions.
 - **Word2Vec embeddings** notebook and predictions.
 - **Images** used in README.
 - **Presentation** of the project.
@@ -59,7 +59,7 @@ python -m venv .venv
 source .venv/bin/activate  # On macOS/Linux
 pip install -r requirements.txt
 ```
-📚 NLTK Data Resources
+## 📚 NLTK Data Resources
 Before running the notebooks, ensure you download necessary NLTK resources by running:
 
 ```bash
@@ -70,3 +70,14 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+```
+## 📥GloVe Embeddings Download
+If you want to use Global Vectors for Word Representation (GloVe) in this project, you need to manually download the GloVe pre-trained embeddings.
+
+You can download them from the official Stanford NLP website:
+👉 https://nlp.stanford.edu/projects/glove/
+
+⚠️ Note:
+After downloading, make sure to place the GloVe files (e.g., glove.6B.300d.txt) inside a folder named glove_data/ in the root directory of this project or update the path in the corresponding notebook.
+
+
