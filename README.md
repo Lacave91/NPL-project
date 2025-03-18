@@ -78,6 +78,6 @@ You can download them from the official Stanford NLP website:
 👉 https://nlp.stanford.edu/projects/glove/
 
 ⚠️ Note:
-After downloading, make sure to place the GloVe files (e.g., glove.6B.300d.txt) inside a folder named glove_data/ in the root directory of this project or update the path in the corresponding notebook.
+After downloading, make sure to place the GloVe files (glove.6B.300d.txt) inside a folder named load_glove_embeddings/ in the root directory of this project or update the path in the corresponding notebook.
 
 
